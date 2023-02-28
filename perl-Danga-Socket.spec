@@ -8,7 +8,7 @@ URL:            http://search.cpan.org/dist/Danga-Socket/
 Source0:        http://www.cpan.org/modules/by-module/Danga/Danga-Socket-%{version}.tar.gz
 BuildArch:      noarch
 
-BuildRequires:  perl(ExtUtils::MakeMaker) perl(Test::More) perl(Sys::Syscall)
+BuildRequires:  perl(ExtUtils::MakeMaker) perl(Test::More) perl-Sys-Syscall
 BuildRequires:  perl(Time::HiRes)
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 
